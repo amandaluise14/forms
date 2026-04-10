@@ -58,11 +58,17 @@ main{
     margin-top: 10px;
     cursor: pointer;
     color: var(--cor-texto);
-    
+
 }
 
 .erro{
     color: var(--cor-erro);
+    font-size: 12px;
+    text-align: center;
+}
+
+.sucesso{
+    color: var(--cor-sucesso);
     font-size: 12px;
     text-align: center;
 }
