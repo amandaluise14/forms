@@ -1,5 +1,6 @@
 :root{
 
+
     --cor-fundo:#c3dbfa;
     --cor-fundo-2:#2b7bd8;
     --cor-form:#0a86b8;
@@ -8,9 +9,11 @@
     --cor-erro:#b10000;
 }
 
+
 *{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+
 
 body{
     display: flex;
@@ -20,6 +23,7 @@ body{
     background-color: var(--cor-fundo);
 }
 
+
 main{
     padding: 3%;
     gap: 1%;
@@ -28,7 +32,9 @@ main{
     background-color: var(--cor-fundo-2);
 }
 
+
 #form-login{
+
 
     display: flex;
     flex-direction: column;
@@ -36,11 +42,14 @@ main{
     align-items: flex-end;
 }
 
+
 #form-login input{
+
 
     border-radius: 10px;
     border: solid rgb(165, 212, 255);
 }
+
 
 #form-login button{
     border: solid rgb(165, 212, 255);
@@ -49,9 +58,11 @@ main{
     color: #ffffff;
 }
 
+
 #form-login button:hover{
     color: var(--cor-fundo);
 }
+
 
 .toggle{
     text-align: center;
@@ -59,13 +70,16 @@ main{
     cursor: pointer;
     color: var(--cor-texto);
 
+
 }
+
 
 .erro{
     color: var(--cor-erro);
     font-size: 12px;
     text-align: center;
 }
+
 
 .sucesso{
     color: var(--cor-sucesso);
